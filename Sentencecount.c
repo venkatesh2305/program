@@ -11,6 +11,6 @@ void main()
         if(a[i]!=' ')
         count++;
     }
-    printf("%d",m); 
+    printf("%d",count); 
     getch();
 }
