@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-int main() 
+void main() 
 {
 	char str[50];
 	int i,flag=0;
@@ -21,5 +21,5 @@ int main()
 	{
 		printf("\nyes");
 	}
-	return 0;
+	
 }
