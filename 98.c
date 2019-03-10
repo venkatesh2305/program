@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {	
-   int n,a[10],i,flag=0;
+   int n,a[10],i,flag=1;
    scanf("%d",&n);
    for(i=0;i<n;i++)
    {
@@ -11,7 +11,7 @@ int main()
    {
         if(a[i]<a[i+1])
         {
-            flag=0;
+            flag=1;
         }
         else
         {
