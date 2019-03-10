@@ -2,11 +2,11 @@
 #include<conio.h>
 int main()
 {
-    int a,count=0;
-    scanf("%d",&a);
-    while(a!=0)
+    int n,count=0;
+    scanf("%d",&n);
+    while(n!=0)
     {
-    a=a/10;
+    n=n/10;
     count++;
     }
     printf("%d",count);
