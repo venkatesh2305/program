@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
     int n;
     scanf("%d",&n);
@@ -7,5 +7,5 @@ int main()
     printf("yes");
     else
     printf("no");
-    return 0;
+    getch();
 }
