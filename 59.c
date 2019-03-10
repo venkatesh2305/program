@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
-int main()
+
+void main()
 {
     int n,count=0;
     scanf("%d",&n);
@@ -10,5 +10,5 @@ int main()
     count++;
     }
     printf("%d",count);
-    return 0;
+    getch();
 }
