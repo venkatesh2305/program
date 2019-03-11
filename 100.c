@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int n,r=1,sum=0;
     scanf("%d",&n);
