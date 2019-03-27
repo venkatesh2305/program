@@ -3,8 +3,8 @@
 int main
 {
 int a,b,temp,sum=0,r,a,i;
-scanf("%d",&n1);
-scanf("%d",&n2);
+scanf("%d",&a);
+scanf("%d",&b);
 for(i=a;i<=b;i++)
 {
 temp=i;
